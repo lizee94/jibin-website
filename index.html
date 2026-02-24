@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jibin Gracian | Health for Every Body</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
+        
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1571902943202-507ec2618e8f?q=80&w=2075&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-white text-slate-900">
+
+    <nav class="flex justify-between items-center px-6 md:px-12 py-5 sticky top-0 bg-white/90 backdrop-blur-md z-50 border-b border-slate-100">
+        <div class="text-2xl font-black tracking-tighter text-emerald-700 uppercase">Jibin Gracian</div>
+        <div class="hidden md:flex space-x-8 font-bold text-xs uppercase tracking-widest text-slate-600">
+            <a href="#philosophy" class="hover:text-emerald-600 transition">Philosophy</a>
+            <a href="#programs" class="hover:text-emerald-600 transition">Programs</a>
+            <a href="#success" class="hover:text-emerald-600 transition">Stories</a>
+            <a href="#contact" class="bg-emerald-600 text-white px-6 py-2 rounded-full hover:bg-black transition shadow-md">Get Started</a>
+        </div>
+    </nav>
+
+    <header class="hero-section h-[90vh] flex items-center px-6 md:px-12 text-white">
+        <div class="max-w-4xl">
+            <span class="bg-emerald-600 px-4 py-1 rounded-sm text-xs font-bold uppercase tracking-widest mb-6 inline-block">5 Years of Experience</span>
+            <h1 class="text-5xl md:text-8xl font-extrabold leading-none mb-6 tracking-tighter">
+                FITNESS IS FOR <br><span class="text-emerald-400 italic font-black">EVERYONE.</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-slate-200 mb-10 max-w-2xl font-medium leading-relaxed">
+                Breaking the myth that health is gruelling. It only takes your <span class="text-white font-bold underline decoration-emerald-500">will</span> to start. Result-focused training for men, women, and children.
+            </p>
+            <div class="flex flex-wrap gap-4">
+                <a href="#contact" class="bg-emerald-600 text-white px-10 py-5 font-black text-xl hover:bg-white hover:text-emerald-700 transition shadow-xl">START YOUR JOURNEY</a>
+                <a href="#philosophy" class="bg-transparent border-2 border-white/30 text-white px-10 py-5 font-black text-xl hover:bg-white/10 transition">LEARN MORE</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="bg-slate-900 py-10">
+        <div class="max-w-7xl mx-auto px-6 flex flex-wrap justify-around gap-8 text-white font-black opacity-90 text-xs md:text-sm tracking-widest uppercase">
+            <div class="flex items-center gap-2"><span class="text-emerald-500">●</span> Men & Women</div>
+            <div class="flex items-center gap-2"><span class="text-emerald-500">●</span> Youth & Kids</div>
+            <div class="flex items-center gap-2"><span class="text-emerald-500">●</span> Science-Based Plans</div>
+            <div class="flex items-center gap-2"><span class="text-emerald-500">●</span> Lifestyle Nutrition</div>
+        </div>
+    </div>
+
+    <section id="philosophy" class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+            <div class="relative">
+                <img src="https://images.unsplash.com/photo-1518310383802-640c2de311b2?q=80&w=800&auto=format&fit=crop" class="w-full h-[500px] object-cover rounded-3xl" alt="Training">
+                <div class="absolute -bottom-8 -right-8 bg-white p-8 shadow-2xl rounded-2xl hidden md:block border-l-8 border-emerald-600">
+                    <p class="text-4xl font-black text-slate-900">300+</p>
+                    <p class="text-slate-500 font-bold uppercase text-xs tracking-widest">Lives Impacted</p>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-4xl md:text-5xl font-black uppercase mb-6 leading-tight">It shouldn't be <br><span class="text-emerald-600">hard to be healthy.</span></h2>
+                <div class="space-y-6 text-lg text-slate-600 leading-relaxed">
+                    <p>Over the last 5 years, I’ve worked with everyone from corporate professionals to school-going kids. The biggest barrier I see isn't physical ability—it's the <strong>misconception</strong> that fitness has to be a gruelling, painful chore.</p>
+                    <p>My approach is simple: we build a plan that fits <strong>your</strong> life, not the other way around. No fad diets, no unsustainable routines. Just result-focused training that respects your time and your body.</p>
+                    <p class="font-bold text-slate-900 italic">"If you have the will to show up, I have the plan to make it count."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 bg-slate-50">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-2">
+            <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=800" class="w-full h-64 object-cover grayscale hover:grayscale-0 transition duration-500" alt="Training">
+            <img src="https://images.unsplash.com/photo-1594882645126-14020914d58d?q=80&w=800" class="w-full h-64 object-cover grayscale hover:grayscale-0 transition duration-500" alt="Running">
+            <img src="https://images.unsplash.com/photo-1574680077845-d2972f23b16d?q=80&w=800" class="w-full h-64 object-cover grayscale hover:grayscale-0 transition duration-500" alt="Focus">
+            <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=800" class="w-full h-64 object-cover grayscale hover:grayscale-0 transition duration-500" alt="Gym">
+        </div>
+    </section>
+
+    <section id="programs" class="py-24 px-6 bg-slate-900 text-white">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-6xl font-black uppercase italic tracking-tighter">Choose Your Path</h2>
+                <div class="h-1 w-24 bg-emerald-500 mx-auto mt-4"></div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="glass-card p-10 rounded-3xl border-t-4 border-emerald-500">
+                    <h3 class="text-2xl font-bold mb-4">Online Coaching</h3>
+                    <p class="text-slate-400 mb-8">Global access to personalized digital programming. Ideal for those who travel or prefer home workouts.</p>
+                    <ul class="space-y-3 mb-10 text-sm font-semibold">
+                        <li>✓ Weekly Video Check-ins</li>
+                        <li>✓ Custom Meal Plans</li>
+                        <li>✓ 24/7 WhatsApp Support</li>
+                    </ul>
+                    <p class="text-3xl font-black">₹9,500<span class="text-sm font-normal text-slate-500">/mo</span></p>
+                </div>
+                <div class="glass-card p-10 rounded-3xl border-t-4 border-white">
+                    <h3 class="text-2xl font-bold mb-4">Personal Training</h3>
+                    <p class="text-slate-400 mb-8">Exclusive 1-on-1 sessions. Focus on technical mastery and high-level accountability in person.</p>
+                    <ul class="space-y-3 mb-10 text-sm font-semibold">
+                        <li>✓ In-person Form Correction</li>
+                        <li>✓ Premium Studio Access</li>
+                        <li>✓ Performance Tracking</li>
+                    </ul>
+                    <p class="text-3xl font-black">₹2,500<span class="text-sm font-normal text-slate-500">/session</span></p>
+                </div>
+                <div class="glass-card p-10 rounded-3xl border-t-4 border-emerald-500">
+                    <h3 class="text-2xl font-bold mb-4">Youth/Kids Intro</h3>
+                    <p class="text-slate-400 mb-8">Building movement foundations for children. Focus on agility, posture, and fun engagement.</p>
+                    <ul class="space-y-3 mb-10 text-sm font-semibold">
+                        <li>✓ Posture Improvement</li>
+                        <li>✓ Athletic Coordination</li>
+                        <li>✓ Injury Prevention</li>
+                    </ul>
+                    <p class="text-3xl font-black">₹1,800<span class="text-sm font-normal text-slate-500">/session</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="success" class="py-24 px-6 bg-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-black uppercase tracking-widest text-emerald-600 mb-12">Real Results</h2>
+            <div class="space-y-12">
+                <blockquote class="text-2xl md:text-3xl font-bold text-slate-800 leading-tight">
+                    "Jibin made me realize that I don't need to spend 2 hours in the gym to see results. His plans are efficient and actually fit into my workday."
+                    <footer class="mt-6 text-sm font-black uppercase tracking-widest text-slate-400">— Anjali R., 34</footer>
+                </blockquote>
+                <div class="h-px w-20 bg-slate-200 mx-auto"></div>
+                <blockquote class="text-2xl md:text-3xl font-bold text-slate-800 leading-tight">
+                    "As a parent, I wanted my son to be active. Jibin’s sessions are the only hour of the day he isn't looking at a screen."
+                    <footer class="mt-6 text-sm font-black uppercase tracking-widest text-slate-400">— Karan S., Parent</footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 px-6 bg-slate-50">
+        <div class="max-w-4xl mx-auto bg-white rounded-3xl shadow-2xl overflow-hidden flex flex-col md:flex-row">
+            <div class="bg-emerald-700 p-12 text-white md:w-2/5">
+                <h2 class="text-4xl font-black mb-6 uppercase">Ready?</h2>
+                <p class="text-emerald-100 mb-10">Stop overthinking it. Fill out the form, and let’s figure out a plan that makes sense for you.</p>
+                <div class="space-y-6 font-bold text-sm uppercase tracking-widest">
+                    <p>📞 +91 98765 43210</p>
+                    <p>✉️ hello@jibingracian.com</p>
+                    <p>📍 Online / Kochi</p>
+                </div>
+            </div>
+            <form class="p-12 md:w-3/5 space-y-4">
+                <input type="text" placeholder="Your Name" class="w-full p-4 bg-slate-50 border-none rounded-xl outline-none focus:ring-2 focus:ring-emerald-500">
+                <input type="text" placeholder="City" class="w-full p-4 bg-slate-50 border-none rounded-xl outline-none">
+                <select class="w-full p-4 bg-slate-50 border-none rounded-xl outline-none font-bold text-slate-500">
+                    <option disabled selected>Interested In...</option>
+                    <option>Online Coaching</option>
+                    <option>Personal Training</option>
+                    <option>Kids Training</option>
+                </select>
+                <textarea placeholder="Tell me about your goal..." class="w-full p-4 bg-slate-50 border-none rounded-xl outline-none h-32"></textarea>
+                <button class="w-full bg-slate-900 text-white font-black py-5 rounded-xl uppercase tracking-widest hover:bg-emerald-600 transition shadow-lg">Submit Application</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-white py-12 border-t border-slate-100 text-center">
+        <div class="text-2xl font-black tracking-tighter text-emerald-700 uppercase mb-4">Jibin Gracian</div>
+        <p class="text-slate-400 text-xs font-bold uppercase tracking-widest">© 2026 Jibin Gracian Fitness. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

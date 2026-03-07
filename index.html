@@ -189,25 +189,31 @@
                     <p class="text-slate-400 text-sm">Fill in your details for a personalized consultation.</p>
                 </div>
                 
-                <form class="space-y-4">
-                    <div class="grid md:grid-cols-2 gap-4">
-                        <input type="text" placeholder="your name" class="w-full p-4 bg-slate-50 border-none rounded-2xl outline-none focus:ring-2 focus:ring-emerald-500 transition lowercase text-sm">
-                        <input type="text" placeholder="city" class="w-full p-4 bg-slate-50 border-none rounded-2xl outline-none focus:ring-2 focus:ring-emerald-500 transition lowercase text-sm">
-                    </div>
-                    
-                    <select class="w-full p-4 bg-slate-50 border-none rounded-2xl outline-none font-medium text-slate-500 focus:ring-2 focus:ring-emerald-500 transition lowercase text-sm">
-                        <option disabled selected>interested in...</option>
-                        <option>online coaching</option>
-                        <option>personal training</option>
-                        <option>kids training</option>
-                    </select>
-                    
-                    <textarea placeholder="tell me about your fitness goal..." class="w-full p-4 bg-slate-50 border-none rounded-2xl outline-none h-32 focus:ring-2 focus:ring-emerald-500 transition lowercase text-sm"></textarea>
-                    
-                    <button type="button" class="w-full bg-slate-900 text-white font-black py-5 rounded-2xl uppercase tracking-widest hover:bg-emerald-600 transition shadow-lg mt-4 text-sm">
-                        Submit Application
-                    </button>
-                </form>
+           <form action="https://formspree.io/f/mgonvvjd" method="POST" class="space-y-4">
+    <input type="text" name="full_name" placeholder="your name" required 
+        class="w-full p-4 bg-slate-50 border-none rounded-2xl outline-none focus:ring-2 focus:ring-emerald-500 transition lowercase text-sm">
+    
+    <input type="text" name="city" placeholder="city" required 
+        class="w-full p-4 bg-slate-50 border-none rounded-2xl outline-none focus:ring-2 focus:ring-emerald-500 transition lowercase text-sm">
+    
+    <select name="program_interest" required 
+        class="w-full p-4 bg-slate-50 border-none rounded-2xl outline-none font-medium text-slate-500 focus:ring-2 focus:ring-emerald-500 transition lowercase text-sm">
+        <option disabled selected value="">interested in...</option>
+        <option value="online-coaching">online coaching</option>
+        <option value="personal-training">personal training</option>
+        <option value="kids-training">kids training</option>
+    </select>
+    
+    <textarea name="fitness_goals" placeholder="tell me about your fitness goal..." required 
+        class="w-full p-4 bg-slate-50 border-none rounded-2xl outline-none h-32 focus:ring-2 focus:ring-emerald-500 transition lowercase text-sm"></textarea>
+    
+    <input type="text" name="_gotcha" style="display:none">
+
+    <button type="submit" 
+        class="w-full bg-slate-900 text-white font-black py-5 rounded-2xl uppercase tracking-widest hover:bg-emerald-600 transition shadow-lg mt-4 text-sm">
+        Submit Application
+    </button>
+</form>
             </div>
         </div>
     </section>
@@ -222,6 +228,7 @@
 
 </body>
 </html>
+
 
 
 

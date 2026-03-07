@@ -189,9 +189,14 @@
                     <p class="text-slate-400 text-sm">Fill in your details for a personalized consultation.</p>
                 </div>
                 
-           <form action="https://formspree.io/f/mgonvvjd" method="POST" class="space-y-4">
-    <input type="text" name="full_name" placeholder="your name" required 
-        class="w-full p-4 bg-slate-50 border-none rounded-2xl outline-none focus:ring-2 focus:ring-emerald-500 transition lowercase text-sm">
+         <form action="https://formspree.io/f/mgonvvjd" method="POST" class="space-y-4">
+    <div class="grid md:grid-cols-2 gap-4">
+        <input type="text" name="full_name" placeholder="your name" required 
+            class="w-full p-4 bg-slate-50 border-none rounded-2xl outline-none focus:ring-2 focus:ring-emerald-500 transition lowercase text-sm">
+        
+        <input type="tel" name="contact_number" placeholder="contact number" required 
+            class="w-full p-4 bg-slate-50 border-none rounded-2xl outline-none focus:ring-2 focus:ring-emerald-500 transition lowercase text-sm">
+    </div>
     
     <input type="text" name="city" placeholder="city" required 
         class="w-full p-4 bg-slate-50 border-none rounded-2xl outline-none focus:ring-2 focus:ring-emerald-500 transition lowercase text-sm">
@@ -228,6 +233,7 @@
 
 </body>
 </html>
+
 
 
 
